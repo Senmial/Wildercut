@@ -1,0 +1,40 @@
+title{
+    color: coral;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+
+
+body{
+    background-color: darkseagreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+nav{
+    background-color: #f05c06;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display:flex;
+  }
+
+  .previewvid{
+    display: flex;
+    align-content:space-around;
+    justify-content: center;
+  }
