@@ -94,9 +94,4 @@
       font-size: 
     }
 
-    .previewvid{
-      display: flex 100%;
-      flex-direction: row;
-      align-content: center;
-      justify-items: space-between;
-    }
+    

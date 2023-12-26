@@ -8,14 +8,14 @@ title{
 
 /* Body Styles*/
 body{
-    background-color: darkseagreen;
+    background-color: rgba(171, 141, 104, 0.662);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
 }
 
 /*Nav bar styles*/
 nav{
-    background-color: #f05c06;
+    background-color: #3d1904;
     top: 0;
     z-index: 1000;
 }
@@ -38,6 +38,22 @@ nav ul {
   .previewvid{
     display: flex;
     flex-direction: row;
-    align-content: center;
     justify-content: space-around;
   }
+
+  section{
+    display:block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    justify-content:center;
+    text-wrap: wrap;
+  }
+  h4{
+    color: #3d1904;
+    display: ;
+  }
+
+  .topimages{
+  display:flex;
+  justify-content: space-around;
+}
