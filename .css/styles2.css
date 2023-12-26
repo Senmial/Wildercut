@@ -1,3 +1,4 @@
+/*header styles*/
 title{
     color: coral;
     font-style: italic;
@@ -5,13 +6,14 @@ title{
 }
 
 
-
+/* Body Styles*/
 body{
     background-color: darkseagreen;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:black;
 }
 
+/*Nav bar styles*/
 nav{
     background-color: #f05c06;
     top: 0;
@@ -35,6 +37,7 @@ nav ul {
 
   .previewvid{
     display: flex;
-    align-content:space-around;
-    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
   }
