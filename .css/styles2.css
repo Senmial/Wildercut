@@ -13,11 +13,19 @@ body{
     color:black;
 }
 
+header{
+  display: flex;
+  top: 0;
+  left: 0;
+}
+
 /*Nav bar styles*/
 nav{
-    background-color: #3d1904;
     top: 0;
     z-index: 1000;
+    justify-content: flex-end;
+    /* border: 2px;
+    border-color: #3d1904;  coming back to this*/
 }
 
 nav ul {
@@ -26,13 +34,19 @@ nav ul {
     padding: 0;
     display:flex;
     justify-content: space-around;
+    
   }
 
   nav a {
     text-decoration: none;
-    color: #fff;
+    color: #ef9219;
     padding: 1rem;
     display:flex;
+  
+  }
+  #heading{
+    display: flex;
+    top: 0;
   }
 
   .previewvid{
@@ -41,13 +55,13 @@ nav ul {
     justify-content: space-around;
   }
 
-  section{
+  /* section{
     display:block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-content: center;
     justify-content:center;
     text-wrap: wrap;
-  }
+  } */
   h4{
     color: #3d1904;
     display: ;
@@ -56,4 +70,40 @@ nav ul {
   .topimages{
   display:flex;
   justify-content: space-around;
+}
+
+#Landpage{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow:hidden
+}
+
+#Landpage img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+ 
+
+/*.landing-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* 100% of the viewport height */
+ /* overflow: hidden; /* Hide overflowing content beyond the viewport */
+
+ .Sections{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center;
+}
+img{
+  border: 10px;
+  border-radius: 20px;
+  border-color:#3d1904;
 }
